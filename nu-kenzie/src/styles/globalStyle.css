@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/homer-simpson-revised");
+
+:root {
+	--brand100: #FD377E;
+	--brand200: #E34981;
+	--color-black-1: #000000;
+	--color-white-1: #ffffff;
+	--color-red-1: #ea534a;
+	--sucess100: #03B898;
+	--gray100: #212529;
+	--gray200: #868E96;
+	--gray300: #E9ECEF;
+	--gray400: #F8F9FA;
+	--font-size-1: 38px;
+	--font-size-2: 22px;
+	--font-size-3: 16px;
+	--font-size-4: 12px;
+	--font-weight-1: 700;
+	--font-weight-2: 600;
+	--font-weight-3: 400;
+	--line-height: 150%;
+	--font-family: "Open Sans", sans-serif;
+}
+
+body {
+	font-family: var(--font-family);
+	background-color: var(--color-white-1);
+}
+
+.container {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+button,
+input,
+select {
+	font-family: var(--font-family);
+	font-size: var(--font-size-3);
+	line-height: var(--line-height);
+}
+
+
