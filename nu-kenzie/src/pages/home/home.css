@@ -8,6 +8,29 @@
     text-align: start;
 }
 
+
 .btnContent{
     width: 241px;
+}
+
+@media (max-width: 900px ){
+    .mainHome{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainContent{
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .textContent{
+        text-align: start;
+    }
+
+    .imgCover{
+        width: 100%;
+    }
+    
 }
