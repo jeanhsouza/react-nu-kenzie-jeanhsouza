@@ -1,0 +1,16 @@
+.values{
+    background-color: blue;
+    height: 100px;
+    width: 50%;
+}
+
+.list{
+    background-color: red;
+    height: 100px;
+    width: 50%;
+}
+
+.mainDash{
+    background-color: green;
+    height: 300px;
+}
