@@ -1,11 +1,10 @@
 import "./App.css";
+import { MainHome } from "./components/Home/home.jsx";
 
-function App({children}) {
+function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-      {children}
-			</header>
+			<MainHome />
 		</div>
 	);
 }
