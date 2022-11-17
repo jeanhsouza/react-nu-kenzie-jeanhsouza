@@ -19,7 +19,7 @@ export function MainHome({setStart}) {
 					</h1>
 					<p className="textContent font5 text-grey4">de forma rápida e segura</p>
 				</div>
-				<Button setStart={()=>setStart(true)} text="Iniciar" classes="btnContent btn font3" />
+				<Button setStart={()=>setStart(true)} text="Iniciar" classes="btnContent btn font4" />
 				{/* <button onClick={()=>setStart(true)} className="btnContent btn font3">Iniciar</button> */}
 			</section>
 			<section className="mainImg">

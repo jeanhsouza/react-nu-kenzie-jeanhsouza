@@ -30,6 +30,14 @@
     background-color: var(--gray900);
 }
 
+.bg-sucess{
+    background-color: var(--sucess100); 
+}
+
+.bg-alert{
+    background-color: var(--color-red-1);
+}
+
 .text-brand1{
     color: var(--brand100);
 }

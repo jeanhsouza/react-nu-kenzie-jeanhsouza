@@ -1,6 +1,6 @@
 .btn{
     cursor:pointer;
-    padding: 10px 36px;
+    padding: 8px 36px;
     border: 2px solid var(--brand100);
     background-color: var(--brand100);
     color: var(--gray400);
@@ -8,7 +8,7 @@
 }
 
 .btn:hover, .btn2:hover{
-    padding: 10px 36px;
+    padding: 8px;
     border: 2px solid var(--brand200);
     color: var(--gray400);
     background-color: var(--brand200);
@@ -16,7 +16,7 @@
 
 .btn2{
     cursor:pointer;
-    padding: 10px 36px;
+    padding: 8px;
     border: 2px solid var(--gray300);
     background-color: var(--gray300);
     color: var(--gray100);

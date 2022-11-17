@@ -11,7 +11,7 @@ export function Header ({setStart}){
         <header className="headerDash">
             <div className="headerMenu container flex justify-between">
             <img src={logoHeader} alt="" className="headerLogo" />
-            <Button setStart={()=>setStart(false)} text="Início" classes="btnHeader btn2 font3"/>
+            <Button setStart={()=>setStart(false)} text="Início" classes="btnHeader btn2 font4"/>
             {/* <button onClick={()=>setStart(false)}className="btnHeader btn2 font3">Ínicio</button> */}
             </div>
         </header>
