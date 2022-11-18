@@ -26,7 +26,7 @@ export function Card({
 
 	return tag === "Entrada" ? (
 		<li className="card bg-sucess flex justify-end">
-			<div className="cardContent bg-grey3 flex justify-between">
+			<div className="cardContent bg-grey4 flex justify-between">
 				<div className="cardDescription flex flex-col gap2">
 					<h3 className="descriptionTitle font3">{description}</h3>
 					<span className="descriptonTag font5">{tag}</span>
@@ -51,7 +51,7 @@ export function Card({
 		</li>
 	) : (
 		<li className="card bg-alert flex justify-end">
-			<div className="cardContent bg-grey3 flex justify-between">
+			<div className="cardContent bg-grey4 flex justify-between">
 				<div className="cardDescription flex flex-col gap2">
 					<h3 className="descriptionTitle font3">{description}</h3>
 					<span className="descriptonTag font5">{tag}</span>
