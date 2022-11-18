@@ -9,15 +9,20 @@ import { Form } from "../Form";
 import { TotalMoney } from "../TotalMoney";
 import { Card } from "../Card";
 
-export function Dashboard({ card, setCard, filter, setFilter}) {
+export function Dashboard({ card, setCard, filter, setFilter }) {
 	return (
 		<main className="mainDash container flex justify-between gap2">
 			<section className="values flex flex-col gap2">
-				<Form setCard={setCard} setFilter={setFilter}/>
+				<Form setCard={setCard} setFilter={setFilter} />
 				{card.length !== 0 && <TotalMoney card={card} />}
 			</section>
 			<section className="list">
-				<Filter card={card} setCard={setCard} filter={filter} setFilter={setFilter}/>
+				<Filter
+					card={card}
+					setCard={setCard}
+					filter={filter}
+					setFilter={setFilter}
+				/>
 				{card.length !== 0 ? (
 					<ul className="listCards mg-top2 flex flex-col gap2">
 						{card.map((elem, index) => {

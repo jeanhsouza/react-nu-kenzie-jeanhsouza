@@ -1,56 +1,63 @@
-.btn{
-    cursor:pointer;
-    padding: 8px 36px;
-    border: 2px solid var(--brand100);
-    background-color: var(--brand100);
-    color: var(--gray400);
-    border-radius: 8px;
+.btn {
+	cursor: pointer;
+	padding: 8px 36px;
+	border: 2px solid var(--brand100);
+	background-color: var(--brand100);
+	color: var(--gray400);
+	border-radius: 8px;
 }
 
-.btn:hover, .btn2:hover{
-    padding: 8px;
-    border: 2px solid var(--brand200);
-    color: var(--gray400);
-    background-color: var(--brand200);
+.btn:hover {
+	padding: 8px;
+	border: 2px solid var(--brand200);
+	color: var(--gray400);
+	background-color: var(--brand200);
 }
 
-.btn2{
-    cursor:pointer;
-    padding: 8px;
-    border: 2px solid var(--gray300);
-    background-color: var(--gray300);
-    color: var(--gray100);
-    border-radius: 8px;
+.btn2 {
+	cursor: pointer;
+	padding: 8px;
+	border: 2px solid var(--gray300);
+	background-color: var(--gray300);
+	color: var(--gray100);
+	border-radius: 8px;
 }
 
-.btn3{
-    cursor:pointer;
-    padding: 10px 36px;
-    width: fit-content;
-    border: 1px solid var(--sucess100);
-    background-color: var(--sucess100);
-    color: var(--gray700);
+.btn2:focus {
+	padding: 8px;
+	border: 2px solid var(--brand200);
+	color: var(--gray400);
+	background-color: var(--brand200);
 }
 
-.btn4{
-    cursor:pointer;
-    padding: 10px 36px;
-    border: 1px solid var(--alert100);
-    background-color: transparent;
-    color: var(--alert100);
+.btn3 {
+	cursor: pointer;
+	padding: 10px 36px;
+	width: fit-content;
+	border: 1px solid var(--sucess100);
+	background-color: var(--sucess100);
+	color: var(--gray700);
+}
+
+.btn4 {
+	cursor: pointer;
+	padding: 10px 36px;
+	border: 1px solid var(--alert100);
+	background-color: transparent;
+	color: var(--alert100);
 }
 
 .spinner {
-    border: 4px dotted rgba(0, 0, 0, 0.1);
-    border-left-color: var(--color-grey-7);
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    animation: spin 1s linear infinite;
-  }
+	border: 4px dotted rgba(0, 0, 0, 0.1);
+	border-left-color: var(--color-grey-7);
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	animation: spin 1s linear infinite;
+}
 
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}

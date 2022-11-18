@@ -8,7 +8,7 @@ import "../../styles/fonts.css";
 import "../../styles/colors.css";
 import "../../styles/globalStyle.css";
 
-export function MainHome({setStart}) {
+export function MainHome({ setStart }) {
 	return (
 		<main className="mainHome bg-grey1 flex items-center gap1">
 			<section className="mainContent flex flex-col gap2">
@@ -17,10 +17,15 @@ export function MainHome({setStart}) {
 					<h1 className="titleContent font1 text-grey4">
 						Centralize o controle das suas finanças
 					</h1>
-					<p className="textContent font5 text-grey4">de forma rápida e segura</p>
+					<p className="textContent font5 text-grey4">
+						de forma rápida e segura
+					</p>
 				</div>
-				<Button setStart={()=>setStart(true)} text="Iniciar" classes="btnContent btn font4" />
-				{/* <button onClick={()=>setStart(true)} className="btnContent btn font3">Iniciar</button> */}
+				<Button
+					setStart={() => setStart(true)}
+					text="Iniciar"
+					classes="btnContent btn font4"
+				/>
 			</section>
 			<section className="mainImg">
 				<img className="imgCover" src={ImgHome} alt="" />
