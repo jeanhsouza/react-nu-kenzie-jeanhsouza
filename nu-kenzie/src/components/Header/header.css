@@ -1,0 +1,5 @@
+.headerDash{
+    background-color: var(--gray400);
+    padding: 10px 0 10px 0;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}

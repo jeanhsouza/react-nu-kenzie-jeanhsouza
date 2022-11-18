@@ -1,0 +1,38 @@
+.values{
+    width: 35%;
+}
+
+.listCards{
+    max-height: 500px;
+    overflow: auto;
+}
+
+.list{
+    width: 60%;
+}
+
+.mainDash{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+@media (max-width:900px) {
+    .mainDash{
+        flex-direction: column;
+    }
+
+    .values{
+        width: 100%;
+    }
+    
+    .list{
+        width: 100%;
+    }
+
+    .filters {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+}
