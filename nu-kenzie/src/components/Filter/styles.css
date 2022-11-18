@@ -1,0 +1,7 @@
+@media (max-width: 900px) {
+	.filters {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 16px;
+	}
+}

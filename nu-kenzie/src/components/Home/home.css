@@ -1,0 +1,42 @@
+.mainHome {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+.logo {
+	width: 122.68px;
+	height: 19.53px;
+}
+
+.mainContent {
+	width: 370px;
+	text-align: start;
+}
+
+.btnContent {
+	width: 241px;
+}
+
+@media (max-width: 900px) {
+	.mainHome {
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.mainContent {
+		align-items: center;
+		padding-top: 40px;
+		width: 90%;
+	}
+
+	.textContent {
+		text-align: start;
+	}
+
+	.imgCover {
+		width: 100%;
+	}
+}

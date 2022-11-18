@@ -1,0 +1,38 @@
+.formValues {
+	padding: 38px 26px;
+	border: 1px solid var(--gray300);
+	border-radius: 4px;
+}
+
+.inputValue {
+	border: none;
+	background: var(--gray400);
+	outline: none;
+}
+
+.divInputValue,
+.selectTypeValue {
+	width: 140px;
+	height: 48px;
+}
+
+@media (max-width: 900px) {
+	.formEntries {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 16px;
+	}
+
+	.divInputValue,
+	.entryTypeValue {
+		width: 100%;
+	}
+
+	.selectTypeValue {
+		width: 100%;
+	}
+
+	.entryValue {
+		width: 100%;
+	}
+}
