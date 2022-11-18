@@ -58,7 +58,7 @@ export function Card({
 				</div>
 				<div className="cardValues flex items-center justify-between">
 					<span className="valuesText font5">
-						{(value*-1).toLocaleString("pt-br", {
+						{(value * -1).toLocaleString("pt-br", {
 							style: "currency",
 							currency: "BRL",
 						})}
@@ -75,22 +75,4 @@ export function Card({
 			</div>
 		</li>
 	);
-
-	// <li className="card bg-sucess flex justify-end">
-	// 	<div className="cardContent bg-grey3 flex justify-between">
-	// 		<div className="cardDescription flex flex-col gap2">
-	// 			<h3 className="descriptionTitle font3">{description}</h3>
-	// 			<span className="descriptonTag font5">{tag}</span>
-	// 		</div>
-	// 		<div className="cardValues flex items-center justify-between">
-	// 			<span className="valuesText font5">
-	// 				{value.toLocaleString("pt-br", {
-	// 					style: "currency",
-	// 					currency: "BRL",
-	// 				})}
-	// 			</span>
-	// 			<img onClick={()=> {removeCard(elemCard)}} src={btnTrash} alt="" className="btnTrash" />
-	// 		</div>
-	// 	</div>
-	// </li>
 }
